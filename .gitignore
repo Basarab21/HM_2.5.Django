@@ -1,0 +1,21 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Django
+*.sqlite3
+/media
+/static_root
+
+# Environment
+venv/
+env/
+
+# IDE (Optional)
+.idea/
+.vscode/
